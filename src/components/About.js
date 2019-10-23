@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import Projects from './Projects'
 
-class Navbar extends Component {
+class About extends Component {
   render(){
     return (
       <div>
-        dill
+        ABOUT ME
       </div>
     )
   }
 }
 
-export default Navbar;
+export default About;

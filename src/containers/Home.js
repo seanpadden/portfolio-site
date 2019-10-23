@@ -5,7 +5,7 @@ class Home extends Component {
   render(){
     return (
       <div className="Home-component">
-        <div style={{fontFamily: `helvetica`, color: `white`, fontSize: `40pt`, textAlign: `center`, padding: `20px`}}>
+        <div style={{fontFamily: `Spectral SC`, color: `white`, fontSize: `40pt`, textAlign: `center`, padding: `20px`}}>
           Sean Padden
         </div>
       </div>

@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
-import Projects from './Projects'
 
-class Navbar extends Component {
+class Contact extends Component {
   render(){
     return (
       <div>
-        dill
+        Contact ME
       </div>
     )
   }
 }
 
-export default Navbar;
+export default Contact;
