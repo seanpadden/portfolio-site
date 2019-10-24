@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom'
 
 
@@ -7,9 +6,9 @@ class Navbar extends Component {
   render(){
     return (
       <div className="navbar">
-        <Link to={'/about'}>About</Link>
-        <Link to={'/projects'}>Projects</Link>
-        <Link to={'/contact'}>Contact</Link>
+        <Link to={'/about'} style={{color: `white`, marginRight: `1%`}}>About</Link>
+        <Link to={'/projects'} style={{color: `white`, marginRight: `1%`}}>Projects</Link>
+        <Link to={'/contact'} style={{color:`white`}}>Contact</Link>
 
       </div>
     )
