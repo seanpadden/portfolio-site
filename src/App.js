@@ -6,12 +6,14 @@ import Navbar from './components/Navbar.js'
 import Projects from './components/Projects.js'
 import About from './components/About.js'
 import Contact from './components/Contact.js'
+import Header from './components/Header.js'
 
 
 class App extends Component {
   render(){
     return (
       <div >
+        <Header/>
         <Switch>
           <Route exact path={'/'} render={routerProps => <Home {...routerProps} />} />
           <Route path={'/projects'} component={Projects} />
