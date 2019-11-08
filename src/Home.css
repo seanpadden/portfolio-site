@@ -1,13 +1,17 @@
 .Home-component {
   /* The image used */
-  background-image: url('http://giphygifs.s3.amazonaws.com/media/gsPILfCLIoEWQ/giphy.gif');
   background-color: black;
   /* Full height */
   height: 100vh; 
+
+
+}
+
+.skelly {
+  background-image: url('http://giphygifs.s3.amazonaws.com/media/gsPILfCLIoEWQ/giphy.gif');
 
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   /* background-size: cover; */
-
 }
