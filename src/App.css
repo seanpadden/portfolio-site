@@ -14,3 +14,29 @@
   margin-left: 15%;
   margin-right: 15%
 }
+
+.navlink{
+  color: white;
+  text-decoration: none;
+}
+
+.navlink:hover{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.project-container {
+
+}
+.project-tile{
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  height: 50%;
+  width: 60%;
+}
+
+.project-tile:hover{
+  opacity: 0.75;
+  transition: .5s ease;
+}

@@ -1,10 +1,5 @@
 import React, {Component} from 'react';
 import '../Home.css';
-import { Link } from 'react-router-dom'
-
-const imageStyles = {
-
-}
 
 class Home extends Component {
   render(){
