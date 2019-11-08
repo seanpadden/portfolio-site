@@ -1,14 +1,16 @@
 .navbar{
+  display: flex;
+  justify-content: center;
   cursor: pointer;
   font-family: 'Spectral SC';
-  font-size: 20pt;
-  text-align: center;
+  font-size: 23pt;
+
   border-radius: 5em;
   border: 0;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 1%;
   letter-spacing: 10px;
   text-decoration: none;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%
 }
