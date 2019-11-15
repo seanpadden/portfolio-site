@@ -7,20 +7,33 @@ class Projects extends Component {
     hover: false 
   }
 
-  handleHover = () => {
+  handleEnter = () => {
     this.setState({
-      hover: !this.state.hover
+      hover: true
     })
-
   }
+
+  handleLeave = () => {
+    this.setState({
+      hover: false
+    })
+  }
+
+  
   render(){
     return (
       <div>
-        <div className="project-container">
-          <div onMouseOver={this.handleHover} >
-            
-            <img src={wordmapper} className="project-tile"/>
-
+        <div >
+          <div   >
+            <img src={wordmapper} className="project-tile" onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave} />
+            {this.state.hover ?
+            <div className="project-text">
+            <h1 style={{fontWeight: `900`}} >WordMapper</h1> 
+            <p>diggadum</p>
+            </div>
+            :
+            null
+            }
           </div>
         
         </div>
