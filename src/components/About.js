@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
+import '../App.css'
 
 class About extends Component {
   render(){
     return (
-      <div style={{fontFamily: `courier`, color: `white`, textAlign: `center`, fontSize: `15pt`, marginLeft: `30%`, marginRight: `30%`, width: `40%`, marginTop: `1%`}}>
+      <div className="about" >
         My name is Sean. I'm a software engineer. I grew up on Long Island 
         and am a longtime resident of Queens and Brooklyn. 
         <br/><br/>

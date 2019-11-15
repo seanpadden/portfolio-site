@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
-  font-family: 'Spectral SC';
+  /* font-family: 'Spectral SC'; */
+  font-family: 'Montserrat', sans-serif;
   font-size: 23pt;
 
   border-radius: 5em;
   border: 0;
   padding-bottom: 1%;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   text-decoration: none;
   width: 70%;
   margin-left: 15%;
@@ -39,4 +40,16 @@
 .project-tile:hover{
   opacity: 0.75;
   transition: .5s ease;
+}
+
+.about {
+font-family: 'Montserrat', sans-serif;
+font-weight: 100;
+color: white;
+text-align: center; 
+font-size: 15pt; 
+margin-left: 30%; 
+margin-right: 30%; 
+width: 40%; 
+margin-top: 1%;
 }

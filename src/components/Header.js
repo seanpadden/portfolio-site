@@ -7,8 +7,8 @@ class Header extends Component {
   render(){
     return (
       <div className="Header-component">
-        <div style={{fontFamily: `Spectral SC`, color: `white`, fontSize: `40pt`, textAlign: `center`, padding: `20px`}}>
-        <Link to={'/'} style={{color: `white`, textDecoration: `none`}}>Sean Padden</Link>
+        <div style={{fontFamily: `Titillium Web`, color: `white`, fontSize: `40pt`, textAlign: `center`, padding: `20px`}}>
+        <Link to={'/'} style={{color: `white`, textDecoration: `none`}}>SEAN PADDEN</Link>
 
         </div>
       </div>
