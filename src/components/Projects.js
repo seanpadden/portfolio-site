@@ -23,19 +23,16 @@ class Projects extends Component {
   render(){
     return (
       <div>
-        <div >
-          <div   >
-            <img src={wordmapper} className="project-tile" onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave} />
-            {this.state.hover ?
-            <div className="project-text">
+        <div>
+          <img src={wordmapper} className="project-tile" onMouseEnter={this.handleEnter} onMouseOut={this.handleLeave} />
+          {this.state.hover ?
+          <div className="project-text">
             <h1 style={{fontWeight: `900`}} >WordMapper</h1> 
             <p>diggadum</p>
-            </div>
-            :
-            null
-            }
           </div>
-        
+          :
+          null
+          }
         </div>
       </div>
     )
