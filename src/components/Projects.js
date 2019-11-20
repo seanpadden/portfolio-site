@@ -29,6 +29,7 @@ class Projects extends Component {
           <div className="project-text">
             <h1 style={{fontWeight: `900`}} >WordMapper</h1>
             <p>An etymological map for the grammatically curious that explores the history of the English language on a map</p>
+            
           </div>
           :
           null
