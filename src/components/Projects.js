@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import wordmapper from '../wordmapper-screenshot.jpg'
-import '../App.css'
+import '../Projects.css'
 
 class Projects extends Component {
   state = {
@@ -22,7 +22,7 @@ class Projects extends Component {
   
   render(){
     return (
-        <div className="wrapper" onMouseEnter={this.handleEnter} onMouseLeave={this.handleLeave}>
+        <div className="wrapper" >
           <img src={wordmapper} className="project-tile" />
 
           <div className="project-text">
