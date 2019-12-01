@@ -1,15 +1,16 @@
-.wrapper {
+.project-wrap {
   position: relative;
-}
-
-.project-tile{
-  margin-top: 1.5%;
-  display: block;
-  position: relative;
-  margin-left: auto; 
-  margin-right: auto;
   height: 50%;
   width: 60%;
+  margin-top: 1.5%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.project-img {
+  display: block;
+  height: 100%;
+  width: 100%;
   transition: .5s ease-in-out all;
 }
 
@@ -27,9 +28,10 @@
   opacity: 0;
 }
 
-.project-tile:hover{
-  opacity: 0.15;
-}
-.wrapper:hover .project-text{
+.project-wrap:hover .project-text {
+  visibility: visible;
   opacity: 1;
+}
+.project-wrap:hover .project-img {
+  opacity: 0.15
 }

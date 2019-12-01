@@ -22,14 +22,10 @@ class Projects extends Component {
   
   render(){
     return (
-        <div className="wrapper" >
-          <img src={wordmapper} className="project-tile" />
-
-          <div className="project-text">
-            <h1 style={{fontWeight: `900`}} >WordMapper</h1>
-            <p>An etymological map for the grammatically curious that explores the history of the English language on a map</p>
-          </div>
-
+        <div className="project-wrap" >
+          <img className="project-img"src={wordmapper} />
+            <h1 className="project-text" style={{fontWeight: `900`}} >WordMapper</h1>
+            <p className="project-text" >An etymological map for the grammatically curious that explores the history of the English language on a map</p>
         </div>
     )
   }
