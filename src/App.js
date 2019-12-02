@@ -21,7 +21,7 @@ class App extends Component {
           <Route path={'/about'} component={About} />
           <Route path={'/contact'} component={Contact} />
         </Switch>
-        
+        <p className="copyrite">©️ Sean Padden 2019</p>
       </div>
     )
   }

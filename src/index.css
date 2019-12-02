@@ -8,3 +8,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", 
     monospace;
 }
+
+.copyrite {
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 12pt;
+  text-align: center;
+  bottom:0;
+}
