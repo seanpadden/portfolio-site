@@ -12,7 +12,7 @@ class Projects extends Component {
   render(){
     return (
         <div className="project-wrap" >
-          <img className="project-img"src={wordmapper} />
+          <img className="project-img" src={wordmapper} />
           <div className="project-text">
             <h1 style={{fontWeight: `900`}}>WordMapper</h1>
               <h4>
