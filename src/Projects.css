@@ -38,7 +38,7 @@
 }
 
 .project-link{
-  color: white;
+  color: #0097a7;
   text-decoration: none;
   letter-spacing: 2px;
   margin-right: 1%;
@@ -55,7 +55,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   color: white;  
-  top: 50%;
+  top: 40%;
   left: 5%;
   right: 5%;
 
