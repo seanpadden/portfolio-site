@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
 import wordmapper from '../wordmapper-screenshot.jpg'
-import '../Projects.css'
+import recyclical from '../recyclical-screenshot.png'
+import weathercloset from '../weather-closet-screenshot.png'
+
 import reactIcon from '../react.png'
 import reduxIcon from '../redux.png'
 import railsIcon from '../rails.png'
 import jsIcon from '../js-logo.png'
+import '../Projects.css'
+
 
 
 class Projects extends Component {
