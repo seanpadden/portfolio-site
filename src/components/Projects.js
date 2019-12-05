@@ -137,14 +137,14 @@ class Projects extends Component {
   }
 
   onClickForward = () => {
-    if (this.state.index < 2) {
+    if (this.state.index === this.state.currentSlide.length - 1) {
       this.setState({
-        index: this.state.index + 1
+        index: 0
       })
     }
     else {
       this.setState({
-        index: 0
+        index: this.state.index + 1
       })
     }
   }
@@ -152,7 +152,7 @@ class Projects extends Component {
   onClickBackward = () => {
     if (this.state.index === 0){
       this.setState({
-        index: 2
+        index: this.state.currentSlide.length - 1
       })
     }
     else {
@@ -168,9 +168,10 @@ class Projects extends Component {
     return (
       <div>
         {this.state.currentSlide[this.state.index]}
-        <button onClick={this.onClickForward}>forward</button>
-        <button onClick={this.onClickBackward}>back</button>
-
+        <div>
+          <button onClick={this.onClickForward}>forward</button>
+          <button onClick={this.onClickBackward}>back</button>
+        </div>
       </div>
         
     )
