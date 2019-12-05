@@ -149,6 +149,19 @@ class Projects extends Component {
     }
   }
 
+  onClickBackward = () => {
+    if (this.state.index === 0){
+      this.setState({
+        index: 2
+      })
+    }
+    else {
+      this.setState({
+        index: this.state.index - 1
+      })
+    }
+  }
+
 
 
   render(){
@@ -156,7 +169,7 @@ class Projects extends Component {
       <div>
         {this.state.currentSlide[this.state.index]}
         <button onClick={this.onClickForward}>forward</button>
-        <button>back</button>
+        <button onClick={this.onClickBackward}>back</button>
 
       </div>
         
