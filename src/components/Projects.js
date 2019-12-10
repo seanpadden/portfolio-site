@@ -168,9 +168,9 @@ class Projects extends Component {
     return (
       <div>
         {this.state.currentSlide[this.state.index]}
-        <div>
-          <button onClick={this.onClickForward}>forward</button>
-          <button onClick={this.onClickBackward}>back</button>
+        <div className="btn-wrapper">
+          <button className="btn" onClick={this.onClickBackward}>back</button>
+          <button className="btn" onClick={this.onClickForward}>next</button>
         </div>
       </div>
         
