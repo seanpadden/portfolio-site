@@ -9,7 +9,7 @@ class About extends Component {
         and am a longtime resident of Queens and Brooklyn. 
         <br/><br/>
         I used to work in copywriting 
-        and editorial, but jumped into engineering because I love building and fixings things with people, for people.
+        and editorial, but jumped into engineering because I love building and fixings things with people, for people - with a particular focus on education & sustainability. 
         <br/><br/>
         In my spare time I play guitar, take photos 
         of my cats, and collect Halloween decorations. 
